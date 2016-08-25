@@ -21,8 +21,7 @@ file(GLOB PROJECT_HEADERS sdl2-boilerplate/include/*.h)
 file(GLOB PROJECT_SOURCES sdl2-boilerplate/src/*.c)
 file(GLOB PROJECT_CONFIGS CMakeLists.txt
                           README.md
-                         .gitignore
-                         .gitmodules)
+                         .gitignore)
 
 # Sources
 source_group("Headers" FILES ${PROJECT_HEADERS})
